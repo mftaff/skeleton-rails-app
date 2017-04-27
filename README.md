@@ -1,8 +1,10 @@
-# To-Do Countdown
+# Skeleton rails-app
 
-### Keeping your task list relevent
+### This is the basic starter for all bloc projects
 
-This task list app will depreciate older tasks, 
-and then delete them after one week.
-This way your task list doesn't get cluttered with
-things you keep meaning to do!
+- Rails installed
+- Basic landing page
+- Basic config/gemfile settings
+- Devise installed
+
+This app should be compatible with any new Bloc.io project
