@@ -9,6 +9,27 @@
 
 This app should be compatible with any new Bloc.io project
 
+
+---
+### Setup cloud9 project
+ 
+To pull this down into a new cloud9 project do the following:
+
+First clone this repo into a new repo for your project.
+
+Then create a new empty cloud9 project, (only the hidden file .c9 should exist)
+in the console type:
+
+```
+git init
+git remote add origin <https://github.com/mftaff/your-new-project.git> 
+git pull -u origin master
+```
+**Important!**
+The first time you push up to github you need to add `-u` to the line:
+`git push -u origin master`
+
+
 ---
 ### Technical Details
 
