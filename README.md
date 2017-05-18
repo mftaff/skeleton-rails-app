@@ -24,10 +24,13 @@ in the console type:
 git init
 git remote add origin <https://github.com/mftaff/your-new-project.git> 
 git pull -u origin master
+bundle install
+rake db:migrate
 ```
 **Important!**
-The first time you push up to github you need to add `-u` to the line:
-`git push -u origin master`
+The first time you push up to github you need to add `-u` to the line: `git push -u origin master`
+
+(To quickly launch the cloud9 localhost type: `ruby cloud9server.rb`) 
 
 
 ---
